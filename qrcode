@@ -1,0 +1,3 @@
+import qrcode as qr
+img=qr.make("https://internshala.com/student/resume?detail_source=resume_direct")
+img.save("intern.png")
